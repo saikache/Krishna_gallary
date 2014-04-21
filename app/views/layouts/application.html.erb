@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ssr-krishna</title>
+  <meta charset="utf-8">
+
+<meta name="description" content="shiva rama krishna shivaramakrishna shivarama krishna
+shiva ramakrishna ssrkrishna ssrk 3d paintings ssrkrishna2@gmail.com cartoons manthani singarapu">
+<meta name="keywords" content="travels buses ">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+ 	<link rel="shortcut icon" href="/assets/111.png">		
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/assets/magister.css">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+
+  <!-- Load js libs only when the page is loaded. -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="/assets/js/modernizr.custom.72241.js"></script>
+<!-- Custom template scripts -->
+<script src="/assets/magister.js"></script>
+</head>
+<body class="theme-invert" >
+<!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
+
+<nav class="mainmenu">
+	<div class="container">
+		<div class="dropdown">
+			<button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			<!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+				<li><a href="#head" class="active">Hello</a></li>
+				<li><a href="#about">About me</a></li>
+				<li><a href="#themes">Themes</a></li>
+				<li><a href="#contact">Get in touch</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<%= yield %>
+
+</body>
+</html>
